@@ -1,0 +1,60 @@
+{
+  "gitbook": ">=3.0.0",
+  "description": "沉舟侧畔千帆过,病树前头万木春",
+  "language": "en",
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "-search",
+    "search-pro",
+    "-sharing",
+    "fontsettings",
+    "splitter",
+    "favicon",
+    "prism",
+    "-highlight",
+    "copy-code-button",
+    "tbfed-pagefooter",
+    "expandable-chapters",
+    "mermaid",
+    "back-to-top-button",
+    "include-html",
+    "todo",
+    "sectionx",
+    "codeblock-filename",
+    "emphasize"
+  ],
+  "pluginsConfig": {
+    "fontsettings": {
+      "theme": "night",
+      "family": "sans",
+      "size": 1
+    },
+    "favicon": {
+      "shortcut": "assets/images/favicon.ico",
+      "bookmark": "assets/images/favicon.ico",
+      "appleTouch": "assets/images/apple-touch-icon.png"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"Fight Master",
+      "modify_label": "Latest Update",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-okaidia.css"
+      ],
+      "lang": {
+        "flow": "typescript"
+      }
+    }
+  },
+  "links": {
+    "webpack": "www.webpack.js.org"
+  }
+}

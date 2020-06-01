@@ -1,0 +1,22 @@
+{
+  "name": "gitbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gitbook build ./ ./docs --log=debug --debug",
+    "serve": "gitbook serve --log=debug --debug",
+    "install": "gitbook install",
+    "clean": "rm -rf ./_book"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-favicon": "0.0.2",
+    "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-prism": "^2.4.0",
+    "gitbook-plugin-search-pro": "^2.0.2",
+    "gitbook-plugin-splitter": "0.0.8"
+  }
+}
