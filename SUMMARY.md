@@ -20,7 +20,10 @@
     * [1.13 why webpack](./webpack/webpack-concept/13-why-webpack.md)
     * [1.14 under the hoods](./webpack/webpack-concept/14-under-the-hoods.md)
 * [bash tutorial](./bash/READMD.md)
-    * [1.3 shell command](./bash/shell-command.md)
+    * [1.1 shell command](./bash/shell-command.md)
+    * [1.2 bash basic](./bash/content/1-basic-bash.md)
+    * [1.3 bash basic](./bash/content/2-bash-heredoc.md)
+	
 ## A second-page group
 
 * [Yet another page](./default.md)
