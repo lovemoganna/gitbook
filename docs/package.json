@@ -13,10 +13,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-codeblock-filename": "0.0.9",
+    "gitbook-plugin-copy-code-button": "0.0.2",
+    "gitbook-plugin-emphasize": "^1.1.0",
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
     "gitbook-plugin-favicon": "0.0.2",
     "gitbook-plugin-fontsettings": "^2.0.0",
+    "gitbook-plugin-include-html": "^0.2.0",
+    "gitbook-plugin-mermaid": "0.0.9",
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-search-pro": "^2.0.2",
-    "gitbook-plugin-splitter": "0.0.8"
+    "gitbook-plugin-sectionx": "^3.1.0",
+    "gitbook-plugin-splitter": "0.0.8",
+    "gitbook-plugin-tbfed-pagefooter": "0.0.1",
+    "gitbook-plugin-todo": "^0.1.3"
   }
 }
